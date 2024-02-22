@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-container{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid #948e8e;
+}
+.nav-link{
+    display: flex;
+    gap: 20px;
+}
+ a{
+    text-decoration: none;
+}
+
+.hero-title{
+    width: 100%;
+
+    background: linear-gradient( to right,rgb(1,221,255),rgb(111,68,178));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 10px;
+    padding-top:70px ;
+    padding-bottom:70px ;
+}
+.hero-title-content{
+    width: 50%;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.classes-container{
+width: 80%;
+margin: auto;
+margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.classes-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  
+}
+.classes-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+   
+}
+.card-image{
+    height: 150px;
+    background-size: cover;
+
+}
+.card{
+    width: 250px;
+     border: 2px solid #a09c9c;
+     border-radius: 10px;
+         overflow: hidden;
+}
+.card-component{
+    margin: 5px;
+}
+
+.backButton{
+
+    padding: 10px;
+    color: blue;
+
+    
+    border: none;
+}
+.backButton:hover{
+    border-radius: 5px;
+    background-color: rgb(111,68,178);
+color:#FFF;}
+FOOter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nav-button{
+padding: 10px;
+border-radius: 5px;
+border: 2px solid rgb(75, 75, 238);
+color: rgb(75, 75, 238);
+}
+.hero-button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #000;
+    background-color: #FFF;
+    
+}
